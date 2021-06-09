@@ -1,8 +1,5 @@
 class Car:
-    # makes="Honda"
-    # speed=80
-    # color="blue"
-    # model ="Civic"  
+     
     def __init__(self,make,color,model,speed) :
           self.make=make
           self.color=color
