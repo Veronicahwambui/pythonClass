@@ -11,24 +11,24 @@ divisible_by_three(50)
 
 
 # 3. 
-def join_list(x):    
+def flatterns_list(x):    
    new_list= [item for sublist in x for item in sublist]
    return new_list
-x=join_list([[1,2],[3,4],[5,6]]) 
+x=flatterns_list([[1,2],[3,4],[5,6]]) 
 print(x)   
 
 # 4.
 def smallest(x):
-    return min(x)
+    return min (x)
 print(smallest([3,6,8,2,4,1,5,7]))
 
 def greeting(student_list):
-    for item in student_list:
-        birth_year=2021-item["age"]
-        name=item["name"]
+    for num in student_list:
+        birth_year=2021-num["age"]
+        name=num["name"]
         print(f"Hello {name} you were born in the year {birth_year}")
 
-greeting([{"age": 19, "name": "Eunice"}, 
+greeting([{"age": 19, "name": "Eunice"}]) 
  
 
 
